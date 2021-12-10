@@ -1,0 +1,31 @@
+.card {
+    margin-top: 8px;
+    background: #95D1CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 440px;
+    height: 200px;
+    filter: drop-shadow(
+        2px 4px 8px black
+    )
+}
+.inner-card {
+    position: relative;
+    background: #F6F2D4;
+    height: 80%;
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    filter: drop-shadow(
+        2px 4px 8px black
+    )
+}
+
+img {
+    position: absolute;
+    width: 40%;
+}

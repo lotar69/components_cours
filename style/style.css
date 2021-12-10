@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+@import url(banner.css); 
+@import url(card.css); 
+@import url(footer.css); 
+@import url(header.css); 
+@import url(navbar.css); 
+@import url(button.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Smooch&display=swap');
+
+
+html, body {
+    max-width: 80%;
+    height: 100%;
+    font-family: 'Smooch', sans-serif;
+    color: white;
+    background-color: #22577E;
+    margin: auto;
+}
+
+.wrapper {
+    background-color: #5584AC;
+}
+
+.card-wrapper {
+    background-color: #5584AC;
+    display: grid;
+    margin: auto;
+    grid-template-areas: 
+    'navbar navbar'
+    'header header'
+    'card card'
+    'card card'
+    'card card'
+    'card card'
+    'footer footer';
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    justify-items: center;
+    margin: 16px 0px;
+}

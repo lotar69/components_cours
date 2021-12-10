@@ -1,0 +1,20 @@
+header {
+        height: 96px;
+        background: linear-gradient(
+                45deg,
+                #95D1CC,
+                #5584AC);
+        margin-bottom: 8px;
+        margin: auto;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 8px;
+}
+
+h1 {
+        font-size: 4rem;
+        margin: auto;
+        font-family: "Smooch", sans-serif;
+}

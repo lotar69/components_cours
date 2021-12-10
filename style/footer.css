@@ -1,0 +1,14 @@
+footer {
+    height: 96px;
+    background: #95D1CC;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.icons {
+    width: 80px;
+    transform: translate(-40px, -40px);
+}

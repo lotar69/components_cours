@@ -1,0 +1,24 @@
+.navbar {
+    height: 48px;
+    background: linear-gradient(
+        45deg,
+        #5584AC,
+        #95D1CC);
+    margin-bottom: 8px;
+    color:white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px;
+    font-size: 1.5rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    margin: 8px;
+}
